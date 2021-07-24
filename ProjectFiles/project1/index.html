@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /*CSS Reset*/
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('img/img/img2.jpg');
+            background-size: 100%;
+            color: rgb(146, 12, 12);
+        }
+        .left{
+           position: absolute;
+           left: 34px;
+           top: 20px;
+           display: inline-block;
+           border: 2px whitesmoke;
+           top: 20px;
+        }
+        .mid{
+            align-items:center;
+           display: block;
+           width: 33%;
+           margin: auto;
+           border: 2px green;
+           top: 20px;
+           align-items: center;
+        }
+        .right{
+           position: absolute;
+           right: 34px;
+           top: 20px;
+           display: inline-block;
+           border: 2px yellow;
+           top: 20px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        ul{
+            overflow: hidden;
+            display: inline-block;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            display: inline-block;
+            font-size: 25px;
+            }
+        .nav>li{
+            display:inline-block;
+            color: black;
+             font-size: 20px;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             font-weight: bold;
+        }
+        li:hover{
+            font-size: 25px;
+        }
+         .navbar li a{
+             color: black;
+             font-size: 20px;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             font-weight: bold;
+             text-decoration: none;
+         }  
+         .btn{
+             margin: 0px;
+             background-color: brown;
+             color: coral;
+             padding: 4px 14px;
+             border: 2px solid grey;
+         } 
+         .btn:hover{
+             background-color: ivory;
+
+         }
+    </style>
+<body>
+   <header class="header">
+      <!--left box for logo--> 
+        <div class="left">
+
+        </div>
+        <!--mid box for navbar-->
+          <div class="mid">
+              
+             <ul class="nav navbar-nav">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About US</a></li>
+             <li><a href="#">Email</a></li>
+             <li><a href="#">Contact US</a></li>
+             </ul>
+          </div>
+          <!--right box for buttons-->
+          <div class="right">
+            <button class="btn">Call Us Now</button>
+          </div>
+   </header>
+</body>
+</html>
